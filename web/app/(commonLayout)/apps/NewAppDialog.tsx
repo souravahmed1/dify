@@ -154,7 +154,7 @@ const NewAppDialog = ({ show, onClose }: NewAppDialogProps) => {
                   </div>
                   <div className={style.listItemDescription}>{t('app.newApp.chatAppIntro')}</div>
                   <div className={classNames(style.listItemFooter, 'justify-end')}>
-                    <a className={style.listItemLink} href='https://udify.app/chat/7CQBa5yyvYLSkZtx' target='_blank'>{t('app.newApp.previewDemo')}<span className={classNames(style.linkIcon, style.grayLinkIcon)} /></a>
+                    {/* <a className={style.listItemLink} href='https://udify.app/chat/7CQBa5yyvYLSkZtx' target='_blank'>{t('app.newApp.previewDemo')}<span className={classNames(style.linkIcon, style.grayLinkIcon)} /></a> */}
                   </div>
                 </li>
                 <li
@@ -171,18 +171,18 @@ const NewAppDialog = ({ show, onClose }: NewAppDialogProps) => {
                   </div>
                   <div className={style.listItemDescription}>{t('app.newApp.completeAppIntro')}</div>
                   <div className={classNames(style.listItemFooter, 'justify-end')}>
-                    <a className={style.listItemLink} href='https://udify.app/completion/aeFTj0VCb3Ok3TUE' target='_blank'>{t('app.newApp.previewDemo')}<span className={classNames(style.linkIcon, style.grayLinkIcon)} /></a>
+                    {/* <a className={style.listItemLink} href='https://udify.app/completion/aeFTj0VCb3Ok3TUE' target='_blank'>{t('app.newApp.previewDemo')}<span className={classNames(style.linkIcon, style.grayLinkIcon)} /></a> */}
                   </div>
                 </li>
               </ul>
-              <div className='flex items-center h-[34px] mt-2'>
+              {/* <div className='flex items-center h-[34px] mt-2'>
                 <span
                   className='inline-flex items-center gap-1 text-xs font-medium cursor-pointer text-primary-600'
                   onClick={() => setIsWithTemplate(true)}
                 >
                   {t('app.newApp.showTemplates')}<span className={style.rightIcon} />
                 </span>
-              </div>
+              </div> */}
             </>
           )}
       </div>
