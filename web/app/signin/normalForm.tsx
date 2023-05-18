@@ -269,13 +269,13 @@ const NormalForm = () => {
             <Link
               className='text-primary-600'
               target={'_blank'}
-              href='https://docs.dify.ai/user-agreement/terms-of-service'
+              href='https://www.consultbae.com/'
             >{t('login.tos')}</Link>
             &nbsp;&&nbsp;
             <Link
               className='text-primary-600'
               target={'_blank'}
-              href='https://docs.dify.ai/user-agreement/privacy-policy'
+              href='https://www.consultbae.com/'
             >{t('login.pp')}</Link>
           </div>
 

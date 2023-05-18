@@ -91,8 +91,8 @@ const translation = {
     name: '用户名',
     email: '邮箱',
     edit: '编辑',
-    langGeniusAccount: 'Dify 账号',
-    langGeniusAccountTip: '您的 Dify 账号和相关的用户数据。',
+    langGeniusAccount: ' 账号',
+    langGeniusAccountTip: '您的  账号和相关的用户数据。',
     editName: '编辑名字',
     showAppLength: '显示 {{length}} 个应用',
   },
@@ -177,8 +177,8 @@ const translation = {
   about: {
     changeLog: '更新日志',
     updateNow: '现在更新',
-    nowAvailable: 'Dify {{version}} 现已可用。',
-    latestAvailable: 'Dify {{version}} 已是最新版本。',
+    nowAvailable: ' {{version}} 现已可用。',
+    latestAvailable: ' {{version}} 已是最新版本。',
   },
   appMenus: {
     overview: '概览',

@@ -43,7 +43,7 @@ const translation = {
         tip: "You can upload files, sync from the website, or from webb apps like Notion, GitHub, etc.",
       },
       sync: {
-        tip: "Dify will periodically download files from your Notion and complete processing.",
+        tip: "will periodically download files from your Notion and complete processing.",
       },
     },
     delete: {
